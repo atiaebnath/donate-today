@@ -1,0 +1,116 @@
+body {
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+    margin: 0px;
+}
+
+.hero-text {
+    text-align: center;
+    color: white;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 130px;
+
+}
+
+
+.hero-text h1 {
+    font-size: 65px;
+    font-weight: 900;
+    text-shadow: 10px 10px 30px rgb(66, 66, 66);
+}
+
+p {
+    font-size: 18px;
+}
+
+.red {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to bottom right, red, tomato);
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+.hero-pic {
+    background-image: url(images/donation11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+
+.today {
+    text-align: center;
+    margin: 100px;
+
+}
+
+.amount-list {
+    display: inline-flex;
+    font-size: 80px;
+    margin-left: 85px;
+    padding-top: 2 px;
+    padding-bottom: 50px;
+
+}
+
+#amount {
+    color: red;
+    border: 3px solid red;
+    padding: 3px;
+    background-color: rgb(247, 207, 207);
+}
+
+.donating-plan {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.fexible-container {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.donate-itam {
+    text-align: justify;
+    width: 25%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 3%;
+
+
+}
+
+#background-1 {
+    background-color: aquamarine;
+}
+
+#background-2 {
+    background-color: mistyrose;
+}
+
+#background-3 {
+    background-color: rgb(155, 250, 163);
+}
+
+.depend-on-donation {
+    display: flex;
+
+}
+
+.need-donate {
+    display: flex;
+    margin: 5%;
+
+}
+
+.update-information {
+    text-align: center;
+    margin: 10%;
+}
+
+.email-id {
+    text-align: center;
+}
