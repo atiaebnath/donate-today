@@ -16,11 +16,17 @@ body {
 .hero-text h1 {
     font-size: 65px;
     font-weight: 900;
-    text-shadow: 10px 10px 30px rgb(66, 66, 66);
+    text-shadow: 10px 10px 30px rgb(34, 33, 33);
 }
 
 p {
-    font-size: 18px;
+    font-size: 20px;
+    text: shadow 10px 10px 30px rgb(34, 33, 33);
+}
+
+.input-fild {
+    text-align: center;
+    text-decoration: none;
 }
 
 .red {
@@ -31,8 +37,12 @@ p {
     border-radius: 30px;
 }
 
+#amount-button {
+    margin-left: 45%;
+}
+
 .hero-pic {
-    background-image: url(images/donation11.jpg);
+    background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
@@ -51,6 +61,12 @@ p {
     margin-left: 85px;
     padding-top: 2 px;
     padding-bottom: 50px;
+
+}
+
+.input-fild input {
+    border: none;
+    font-size: 25px;
 
 }
 
@@ -84,33 +100,72 @@ p {
 }
 
 #background-1 {
-    background-color: aquamarine;
+    background-color: rgb(119, 250, 206);
 }
 
 #background-2 {
-    background-color: mistyrose;
+    background-color: rgb(255, 212, 207);
 }
 
 #background-3 {
-    background-color: rgb(155, 250, 163);
+    background-color: rgb(88, 250, 97);
 }
 
 .depend-on-donation {
     display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 5%;
 
+}
+
+.donate-section {
+    margin-top: 100px;
+
+}
+
+.d-image {
+    margin-left: 10%;
 }
 
 .need-donate {
     display: flex;
-    margin: 5%;
+    margin-bottom: 100px;
+}
+
+.need-text {
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.image-d {
+    padding: 20px 120px;
 
 }
 
 .update-information {
     text-align: center;
-    margin: 10%;
+
+
 }
 
 .email-id {
     text-align: center;
+    margin-bottom: 160PX;
+}
+
+.email-id input {
+    font-size: 30px;
+    border-radius: 30px;
+
+
+}
+
+.footer-background {
+    background-color: black;
+    text-align: center;
+    height: 140px;
+    color: tomato;
+    padding-top: 25px;
+    font-style: italic;
 }
